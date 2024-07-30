@@ -11,6 +11,7 @@
    // variable using $
    $name = "Nur Aleina";
    echo "hello $name";
+   echo "<br>";
 
    /*scalartype
    $string = "Aleina";
@@ -32,6 +33,19 @@
 
    object type
    $object = new Car();*/
+
+   echo $_SERVER["DOCUMENT_ROOT"];//location website
+   echo "<br>";
+   echo $_SERVER["PHP_SELF"];//root and file
+   echo "<br>";
+   echo $_SERVER["SERVER_NAME"];//server name
+   echo "<br>";
+   echo $_SERVER["REQUEST_METHOD"];//HOW THIS page was access
+   echo "<br>";
+   $_GET["name"];//get data
+   echo $_GET["name"];
+   echo "<br>";
+   echo $_FILES["name"];
 ?>
  <p>Hello! My name is <?php echo$name ?> Hello world!</p>
 
